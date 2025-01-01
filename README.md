@@ -50,3 +50,4 @@ The CI/CD pipeline is defined in `.github/workflows/deploy.yml`:
   1. Checks out the code from the repository.
   2. Configures AWS credentials using GitHub secrets.
   3. Deploys the website to the S3 bucket using `aws s3 sync`.
+  4. 
